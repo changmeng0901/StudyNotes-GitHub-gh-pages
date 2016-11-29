@@ -1,0 +1,553 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+	<title>无标题文档</title>
+	<link type="text/css" rel="stylesheet" href="css/bootstrap3.min.css" />
+    <link type="text/css" rel="stylesheet" href="css/bootstrap-select.min.css" />
+    <link type="text/css" rel="stylesheet" href="css/Webapp3.css" id="linkWap" />
+    
+	<style>
+    .page { display: none; width: 100%; height: 100%; overflow: hidden; position: absolute; top: 0; left: 0;}
+    .current { display: block; z-index: 1;}
+    .slide { display: block; z-index: 2;}
+    #navBar { z-index: 3; position: absolute; top: 30%; right: 3000%;}
+    #navBar .active { background: #ccc;}
+    #navBar li { cursor: pointer; margin-bottom: 10px; transition: all .7s ease; border-radius: 50%; line-height: 40px; text-align: center; width: 40px; height: 40px;}
+    </style>
+    
+</head>
+
+<body>
+<div id="pageContain">
+	<div class="page page1 current">
+    	<!-- 1屏 开始 -->   
+		<div class="contain">
+			<div class="daily_bg1"><img class="PoImgs" src="images/daily-bg1.jpg" /></div>
+            <div class="daily_bg2">
+            	<img  class="PoImgs" src="images/daily-1-4.png" />
+                <p class="daily_date">
+                    <span class="month">07</span>
+                    <span class="day">28</span>
+                </p>
+                <p class="companyName">北京北菜园有机农场</p>
+                <span class="grass rebberBand animated"><img class="PoImgs" src="images/daily-1-7.png" /></span>
+            </div>
+            <div class="tip"><img class="PoImgs" src="images/daily-1-5.png" /></div>
+            <div class="logo"><img class="PoImgs" src="images/daily-1-6.png" /></div>      
+		</div>
+        <!-- 1屏 结束 -->   
+	</div>
+
+	<div class="page page2">
+    	<!-- 2屏 开始 -->   
+    	<img class="PoImgs" src="images/daily-bg2.jpg" />
+		<div class="contain">
+			<div class="pText_wap">
+                <div class="pText1"><h2 class="titleH2">订单</h2></div>
+                <div class="pText pText2"><p>农场云昨天帮您带来了</p><b class="blue">18</b><p>个订单</p></div>
+                <div class="pText pText3"><p>您昨天的收入是</p><b class="yellow">3422</b><p>元</p></div>
+                <div class="pText pText4"><p>您昨天订单的主要渠道有</p></div>
+                <div class="pText pText5"><strong>本来生活、沱沱工社与物美大卖场</strong></div>
+                <div class="pText pText4" style="text-align:right;"><a class="pText-more" href="#">查看更多&gt;&gt;</a></div>
+            </div>
+            <div class="order_animate">
+                <div class="area_bg"><img class="PoImgs" src="images/daily-2-2.png" /></div>
+                <div class="computer"><img class="PoImgs" src="images/daily-2-1.png" /></div>
+                <div class="order_bg"><img class="PoImgs" src="images/daily-2-3.png" /></div>
+                <div class="money_bg"><img class="PoImgs" src="images/daily-2-4.png" /></div>
+                <span class="money_ico1"><img class="PoImgs" src="images/daily-2-5.png" /></span>
+                <span class="money_ico2"><img class="PoImgs" src="images/daily-2-6.png" /></span>
+                <span class="money_ico3"><img class="PoImgs" src="images/daily-2-5.png" /></span>
+                <span class="money_ico4"><img class="PoImgs" src="images/daily-2-6.png" /></span>
+                <div class="money_numPo">
+                    <span class="bg"><img class="PoImgs" src="images/daily-2-7.png" /></span>
+                    <p class="num"><em>3422</em><span>元</span></p>
+                </div>
+                <div class="order_numPo">
+                    <span class="bg"><img class="PoImgs" src="images/daily-2-8.png" /></span>
+                    <p class="num"><em>18</em><span>个订单</span></p>
+                </div>
+            </div>
+            <div class="nodatesCon">
+                <div class="pText_wap">
+                    <div class="pText1"><h2 class="titleH2">订单</h2></div>
+                </div>
+                <div class="nodate_wap">
+                    <img src="images/nodate-img-1.png" />
+                </div>
+            </div>
+		</div>
+        <!-- 2屏 结束 -->   
+	</div>
+
+	<div class="page page3">
+    	<!-- 3屏 开始 -->   
+    	<img class="PoImgs" src="images/daily-bg2.jpg" />
+		<div class="contain">
+            <div class="pText_wap">
+                <div class="pText1"><h2 class="titleH2">包装</h2></div>
+                <div class="pText pText2"><p>您昨天的包装车间根据订单完成了</p><b class="blue">143</b><p>品种，</p><p>总计</p><b class="yellow">2462</b><p>包</p></div>
+                <div class="pText pText2" style="text-align:right;"><a class="pText-more" href="#">查看更多&gt;&gt;</a></div>
+            </div>
+            <div class="pack_animate">
+                <div class="area_bg"><img class="PoImgs" src="images/daily-3-1.png" /></div>
+                <span class="pack_bg1"><img class="PoImgs" src="images/daily-3-2.png" /></span>
+                <span class="pack_bg2"><img class="PoImgs" src="images/daily-3-2.png" /></span>
+                <span class="pack_bg3"><img class="PoImgs" src="images/daily-3-3.png" /></span>
+                <span class="pack_bg4"><img class="PoImgs" src="images/daily-3-3.png" /></span>
+                <span class="pack_bg5"><img class="PoImgs" src="images/daily-3-4.png" /></span>
+                
+                <span class="ico ico1"><img src="images/daily-3-10.png" /></span>
+                <span class="ico ico2"><img src="images/daily-3-11.png" /></span>
+                <span class="ico ico3"><img src="images/daily-3-12.png" /></span>
+                <span class="ico ico4"><img src="images/daily-3-13.png" /></span>
+                <span class="ico ico5"><img src="images/daily-3-14.png" /></span>
+                <span class="ico ico6"><img src="images/daily-3-15.png" /></span>
+                <span class="ico ico7"><img src="images/daily-3-16.png" /></span>
+                <span class="ico ico8"><img src="images/daily-3-17.png" /></span>
+                <span class="ico ico9"><img src="images/daily-3-18.png" /></span>
+                <span class="ico ico10"><img src="images/daily-3-19.png" /></span>
+                <span class="ico ico11"><img src="images/daily-3-20.png" /></span>
+                <span class="ico ico12"><img src="images/daily-3-21.png" /></span>
+                <span class="ico ico13"><img src="images/daily-3-22.png" /></span>
+                <span class="ico ico14"><img src="images/daily-3-23.png" /></span>
+                
+                <div class="wrap_numPo">
+                    <span class="bg"><img class="PoImgs" src="images/daily-3-6.png" /></span>
+                    <p class="num"><em>2462</em><span>包</span></p>
+                </div>
+                <div class="type_numPo">
+                    <span class="bg"><img class="PoImgs" src="images/daily-3-5.png" /></span>
+                    <p class="num"><em>143</em><span>个品种</span></p>
+                </div>
+            </div>
+            <div class="nodatesCon">
+                <div class="pText_wap">
+                    <div class="pText1"><h2 class="titleH2">包装</h2></div>
+                </div>
+                <div class="nodate_wap"><img src="images/nodate-img-2.png" /></div>
+            </div>
+		</div>
+        <!-- 3屏 结束 -->   
+	</div>
+
+	<div class="page page4">
+    	<!-- 4屏 开始 -->  
+    	<img class="PoImgs" src="images/daily-bg2.jpg" />
+		<div class="contain"> 
+            <div class="pText_wap">
+                <div class="pText1"><h2 class="titleH2">采收</h2></div>
+            </div>
+            <div class="harvest_list">
+                <dl>
+                    <dt><img src="images/daily-img-4-1.png" /></dt>
+                    <dd>大黄瓜<span>110kg</span></dd>
+                </dl>
+                <dl>
+                    <dt><img src="images/daily-img-4-2.png" /></dt>
+                    <dd>大番茄（红色）<span>110kg</span></dd>
+                </dl>
+                <dl>
+                    <dt><img src="images/daily-img-4-3.png" /></dt>
+                    <dd>尖椒（牛角椒）<span>110kg</span></dd>
+                </dl>
+               <dl>
+                    <dt><img src="images/daily-img-4-4.png" /></dt>
+                    <dd>大叶菠菜<span>110kg</span></dd>
+                </dl>
+                <div class="pText_wap" style="position:relative; left:0; top:0; width:100%;">
+                	<div class="pText pText2" style="text-align:right;"><a class="pText-more" href="#">查看更多&gt;&gt;</a></div>
+                </div>
+            </div>
+            <div class="harvest_animate">
+                <span class="ico ico1"><img class="PoImgs" src="images/daily-4-1.png" /></span>
+                <span class="ico ico2"><img class="PoImgs" src="images/daily-4-2.png" /></span>
+                <span class="ico ico3"><img class="PoImgs" src="images/daily-4-3.png" /></span>
+                <span class="ico ico4"><img class="PoImgs" src="images/daily-4-4.png" /></span>
+                <span class="ico ico5"><img class="PoImgs" src="images/daily-4-5.png" /></span> 
+                <div class="type_numPo">
+                    <span class="bg"><img class="PoImgs" src="images/daily-3-6.png" /></span>
+                    <p class="num"><em>143</em><span>个品种</span></p>
+                </div>
+                <div class="harvest_numPo">
+                    <p class="ttl">昨日采收</p>
+                    <p class="num"><em>1435</em>kg</p>
+                </div>                   
+            </div>   
+            <div class="nodatesCon">
+                <div class="pText_wap">
+                    <div class="pText1"><h2 class="titleH2">采收</h2></div>
+                </div>
+                <div class="nodate_wap"><img src="images/nodate-img-3.png" /></div>
+            </div>
+		</div>
+    	<!-- 4屏 结束 -->  
+	</div>
+
+	<div class="page page5">
+    	<!-- 5屏 开始 -->   
+    	<img class="PoImgs" src="images/daily-bg2.jpg" />
+		<div class="contain">
+            <div class="pText_wap">
+                <div class="pText1"><h2 class="titleH2">市场价格</h2></div>
+            </div>
+            <div class="priceSelt_wap" style="z-index:999;position:absolute; top:16%; left:10%;">
+                <select id="c_select" class="selectpicker">
+                <option>黄瓜</option>
+                <option>圣女果</option>
+                <option>黄瓜</option>
+                </select>
+            </div>
+            <div class="price_wap">
+                <span class="date_price">7月31日价格</span>
+            </div>
+            <div class="paper_wap">
+                <span class="paper_bg"><img class="PoImgs" src="images/daily-5-1.png" /></span>
+                <span class="professor"><img class="PoImgs" src="images/daily-5-2.png" /></span>
+                <a id="price_more" class="price_more" href="javascript:;">查看更多...</a>
+                <div class="paper_list">
+                    <dl class="items">
+                        <dt><img src="images/daily-img-4-1.png" /></dt>
+                        <dd>
+                            <div>
+                                <p class="name">西红柿(红色)</p>
+                                <p class="danjia"><i>3.4</i>元/公斤</p>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl class="items">
+                        <dt><img src="images/daily-img-4-2.png" /></dt>
+                        <dd>
+                            <div>
+                                <p class="name">西红柿(红色)</p>
+                                <p class="danjia"><i>3.4</i>元/公斤</p>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl class="items">
+                        <dt><img src="images/daily-img-4-3.png" /></dt>
+                        <dd>
+                            <div>
+                                <p class="name">西红柿(红色)</p>
+                                <p class="danjia"><i>3.4</i>元/公斤</p>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl class="items">
+                        <dt><img src="images/daily-img-4-4.png" /></dt>
+                        <dd>
+                            <div>
+                                <p class="name">西红柿(红色)</p>
+                                <p class="danjia"><i>3.4</i>元/公斤</p>
+                            </div>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+		</div>
+        <!-- 5屏 结束 -->   
+	</div>
+    
+    <div class="page page6">
+    	<!-- 6屏 开始 -->   
+    	<img class="PoImgs" src="images/daily-bg2.jpg" />
+		<div class="contain">         
+            <div class="pText_wap">
+                <div class="pText1"><h2 class="titleH2">劳动照片</h2></div>
+            </div>
+            
+            <div class="nodatesCon">
+                <div class="pText_wap">
+                    <div class="pText1"><h2 class="titleH2">劳动照片</h2></div>
+                </div>
+                <div class="nodate_wap" style="top:16%;"><img src="images/nodate-img-4.png" /></div>
+            </div>
+            
+            <div id="picture_wap" style="display:block; top:18%; position:absolute;">
+                <div id="myCarousel" class="carousel" data-ride="carousel">
+                     <!-- 轮播（Carousel）项目 -->
+                     <div class="carousel-inner">
+                        <div class="item active">
+                           <img src="images/photo-01.jpg" />
+                           <div class="carousel-caption">
+                              <div class="dateAndnum">
+                                <p class="date">2015/08/01 15:30</p>
+                                <p class="num"><span class="activeNum"></span>/<span class="totalNum"></span></p>
+                              </div>
+                              <div class="tetCon">A区一号棚 浇水</div>
+                              <div class="operateCon">
+                                <p class="fl">操作人：<span>王师傅</span></p>
+                                <p class="fr" style="text-align:right;">用时<span>1.0</span>小时</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/photo-02.jpg" />
+                            <div class="carousel-caption">
+                              <div class="dateAndnum">
+                                <p class="date">2015/08/01 15:30</p>
+                                <p class="num"><span class="activeNum"></span>/<span class="totalNum"></span></p>
+                              </div>
+                              <div class="tetCon">A区二号棚 浇水</div>
+                           </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/photo-03.jpg" />
+                            <div class="carousel-caption">
+                              <div class="dateAndnum">
+                                <p class="date">2015/08/01 15:30</p>
+                                <p class="num"><span class="activeNum"></span>/<span class="totalNum"></span></p>
+                              </div>
+                              <div class="tetCon">A区三号棚 浇水</div>
+                           </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/photo-04.jpg" />
+                            <div class="carousel-caption">
+                              <div class="dateAndnum">
+                                <p class="date">2015/08/01 15:30</p>
+                                <p class="num"><span class="activeNum"></span>/<span class="totalNum"></span></p>
+                              </div>
+                              <div class="tetCon">B区一号棚 浇水</div>
+                           </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/photo-05.jpg" />
+                            <div class="carousel-caption">
+                              <div class="dateAndnum">
+                                <p class="date">2015/08/01 15:30</p>
+                                <p class="num"><span class="activeNum"></span>/<span class="totalNum"></span></p>
+                              </div>
+                              <div class="tetCon">C区一号棚 浇水</div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- 轮播（Carousel）导航 -->
+                     <a id="left" class="carousel-control left" href="#myCarousel" data-slide="prev"><img class="PoImgs" src="images/daily_arrowLt.png" /></a>
+                     <a id="right" class="carousel-control right" href="#myCarousel" data-slide="next"><img class="PoImgs" src="images/daily_arrowRt.png" /></a>
+                </div>
+            </div>
+
+		</div>
+        <!-- 6屏 结束 -->   
+	</div>
+    
+    <div class="page page7">
+    	<!-- 7屏 开始 --> 
+    	<img class="PoImgs" src="images/daily-bg2.jpg" />
+		<div class="contain">
+            <span class="farmLogo"><img src="images/daily-7-1.png" /></span>
+            <div class="contact_Wap">
+                <span class="farm_bg"><img class="PoImgs" src="images/daily-7-2.png" /></span>
+                <span class="cloud1"><img class="PoImgs" src="images/cloud1.png" /></span>
+                <span class="cloud2"><img class="PoImgs" src="images/cloud2.png" /></span>
+                <span class="cloud3"><img class="PoImgs" src="images/cloud3.png" /></span>
+                <span class="cloud4"><img class="PoImgs" src="images/cloud4.png" /></span>
+            </div>
+            <div class="contact_xx">
+                <strong class="ttl"><i class="bg"></i><span>联系我们</span></strong>
+                <p class="txt"><img src="images/daily-ico1.png" />北京市朝阳区通惠河畔文化园区惠河南街1002-7</p>
+                <p class="txt fl mr20"><img src="images/daily-ico2.png" />010-57792120</p>
+                <p class="txt"><img src="images/daily-ico3.png" />farm@acsm.cn</p>
+            </div>
+		</div>
+        <!-- 7屏 结束 -->
+	</div>
+    
+</div>
+
+<ul id="navBar">
+	<li class="active" data-page="0">1</li>
+	<li data-page="1">2</li>
+	<li data-page="2">3</li>
+	<li data-page="3">4</li>
+	<li data-page="4">5</li>
+    <li data-page="6">6</li>
+    <li data-page="7">7</li>
+</ul>
+
+
+
+<div class="landscape">
+    <div class="iphone"></div>
+    <div class="iphone_text">请将屏幕竖向浏览</div>
+</div>
+
+<!-- 去火星 -->
+<div class="nodate_farm" style="display:none;">
+	<span class="bg"><img class="PoImgs" src="images/nodate-img-0.jpg" /></span>
+    <span class="qiu1"><img class="PoImgs" src="images/qiu-img1.png" /></span>
+    <span class="qiu2"><img class="PoImgs" src="images/qiu-img2.png" /></span>
+    <span class="qiu3"><img class="PoImgs" src="images/qiu-img3.png" /></span>
+</div>
+<!-- 去火星 -->
+
+<!-- 更多价格弹窗 开始 -->
+<div class="modal-priceMore" id="modal-priceMore">
+	<div class="priceMore-con">
+    	<i class="closeBtn" id="closeBtn"><img class="PoImgs" src="images/close-btn.png" /></i>
+    	<div class="priceMore-selt">
+        	<div class="priceSelt_wap fl" style="margin-right:5px;">
+                <select id="c_select" class="selectpicker">
+                <option>新发地</option>
+                <option>新发地2</option>
+                <option>新发地3</option>
+                </select>
+            </div>
+            <div class="priceSelt_wap fl">
+                <input class="form-control" type="text" />
+            </div>
+        </div>
+        <div class="priceMore-auto">
+        	<div class="priceMore-list">
+            <dl class="items">
+                <dt><img src="images/daily-img-4-1.png" /></dt>
+                <dd>
+                    <div>
+                        <table width="100%" height="100%" cellpadding="0" cellspacing="0">
+                        	<tr>
+                            	<td width="40%"><p class="name">西红柿(红色)</p></td>
+                                <td width="50%"><p class="danjia"><i>3.4</i>元/公斤<span class="floatPoint floatUp"><img src="images/floatUp.png" />0.5%</span></p></td>
+                            </tr>
+                        </table>
+                    </div>
+                </dd>
+            </dl>
+            <dl class="items">
+                <dt><img src="images/daily-img-4-2.png" /></dt>
+                <dd>
+                    <div>
+                        <table width="100%" height="100%" cellpadding="0" cellspacing="0">
+                        	<tr>
+                            	<td width="40%"><p class="name">西红柿(红色)</p></td>
+                                <td width="50%"><p class="danjia"><i>3.4</i>元/公斤<span class="floatPoint floatUp"><img src="images/floatUp.png" />0.5%</span></p></td>
+                            </tr>
+                        </table>
+                    </div>
+                </dd>
+            </dl>
+            <dl class="items">
+                <dt><img src="images/daily-img-4-3.png" /></dt>
+                <dd>
+                    <div>
+                        <table width="100%" height="100%" cellpadding="0" cellspacing="0">
+                        	<tr>
+                            	<td width="40%"><p class="name">西红柿(红色)</p></td>
+                                <td width="50%"><p class="danjia"><i>3.4</i>元/公斤<span class="floatPoint floatUp"><img src="images/floatUp.png" />0.5%</span></p></td>
+                            </tr>
+                        </table>
+                    </div>
+                </dd>
+            </dl>
+            <dl class="items">
+                <dt><img src="images/daily-img-4-4.png" /></dt>
+                <dd>
+                    <div>
+                        <table width="100%" height="100%" cellpadding="0" cellspacing="0">
+                        	<tr>
+                            	<td width="40%"><p class="name">西红柿(红色)</p></td>
+                                <td width="50%"><p class="danjia"><i>3.4</i>元/公斤<span class="floatPoint floatUp"><img src="images/floatUp.png" />0.5%</span></p></td>
+                            </tr>
+                        </table>
+                    </div>
+                </dd>
+            </dl>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 更多价格弹窗 结束 -->
+<script type="text/javascript" src="js/jquery.js"></script>	
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-select.min.js"></script>
+<script type="text/javascript" src="js/fullPage.js"></script>
+
+<script>
+$(function(){
+		
+	$('.selectpicker').selectpicker();  // 下拉菜单控件
+	
+	$('#myCarousel').carousel({  //轮播图控件
+			pause: true,   //停止播放，其中$('#myCarousel')必须加这个属性data-ride="carousel"
+			interval: false
+	});
+	var aLeft  = document.getElementById('left');
+	var aRight = document.getElementById('right');
+	var aLen = $(".carousel-inner .item").length;
+	var num=0;
+	var itemLength = $(".carousel-inner .item").length;
+	$(".carousel-inner .item").each(function(index,ele){
+		$(ele).find('.activeNum').html(index+1);
+		$(ele).find('.totalNum').html(itemLength);
+	});
+	aLeft.click(function(){
+		if(num<=0){
+			num=aLen-1;	
+		}else{
+			num--;
+		}
+		$(".carousel-inner .item").eq(num).addClass('active');	
+		$(".carousel-inner .item").eq(num).siblings().removeClass('active');
+	})
+	aRight.click(function(){
+		if(num>=aLen-1){
+			num=0;	
+		}else{
+			num++;
+		}
+		$(".carousel-inner .item").eq(num).addClass('active');	
+		$(".carousel-inner .item").eq(num).siblings().removeClass('active');
+	})
+	
+	//点击查看更多事件
+	$('#price_more').click(function(){
+		$('#modal-priceMore').css('display','block');
+	})
+	$('#closeBtn').click(function(){
+		$('#modal-priceMore').css('display','none');
+	})
+	
+	
+	
+	/*var system ={}; 
+	var p = navigator.platform;      
+	system.win = p.indexOf("Win") == 0; 
+	system.mac = p.indexOf("Mac") == 0; 
+	system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);    
+	if(system.win||system.mac||system.xll){//如果是电脑跳转到百度 
+	   // window.location.href="http://www.baidu.com/"; 
+	   $('#linkWap').attr('href','css/Webapp2.css');
+	}else{  //如果是手机,跳转到谷歌
+		//window.location.href="http://www.google.cn/";
+	}*/
+	
+	//滚轮滑屏控件
+	var runPage;
+	runPage = new FullPage({
+		id: 'pageContain',
+		slideTime: 800,
+		effect: {
+			transform: {
+				translate: 'Y',
+				scale: [1, 1],
+				rotate: [0, 0]
+			},
+			opacity: [0, 1]
+		},
+		mode: 'wheel,touch,nav:navBar',
+		easing: 'ease',
+		callback: function(index, thisPage){
+			//alert('滚动到了第 ' + (index + 1) + ' 屏');
+		}
+	});
+	
+})
+</script>
+
+</body>
+</html>
